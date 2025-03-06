@@ -43,6 +43,14 @@ section h2 {
     text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+section h3 {
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
 section h2 span {
     font-size: 30px;
     font-family: sans-serif;
