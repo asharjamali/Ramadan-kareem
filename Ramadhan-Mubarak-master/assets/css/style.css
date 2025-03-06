@@ -38,7 +38,7 @@ section {
 section h2 {
     position: relative;
     text-align: center;
-    font-size: 80px;
+    font-size: 90px;
     color: #fff;
     text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -48,7 +48,7 @@ section h3 {
     text-align: center;
     font-size: 50px;
     color: #0b0000;
-    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 5px 10px rgba(158, 238, 11, 0.878);
 }
 
 section h2 span {
