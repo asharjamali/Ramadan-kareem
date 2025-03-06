@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300;400&family=Poppins&family=Tangerine:wght@700&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Tangerine', cursive;
 }
 
-body{
+body {
     width: auto;
     height: 100vh;
     display: flex;
@@ -15,44 +15,40 @@ body{
     align-items: center;
 }
 
-section{
+section {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(#ffeb3b,#e91e63);
+    background: linear-gradient(#ffeb3b, #e91e63);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-section h2{
+.logo img {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section h2 {
     position: relative;
     text-align: center;
     font-size: 80px;
     color: #fff;
-    text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-section h2 span{
+section h2 span {
     font-size: 30px;
     font-family: sans-serif;
 }
 
-section h2::before{
-    content: '';
-    position: absolute;
-    top: -44px;
-    left: -100px;
-    width: 150px;
-    height:150px;
-    background:transparent;
-    border-left: 15px solid #fff;
-    border-radius: 50%;
-    transform: rotate(-30deg);
-    box-shadow: -14px 1px 10px rgba(0,0,0,0.1);
-}
-
-.mosque{
+.mosque {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -67,15 +63,16 @@ section h2::before{
 }
 
 @keyframes animate {
-    0%{
+    0% {
         background-position: 0;
     }
-    100%{
+
+    100% {
         background-position: 1200px;
     }
 }
 
-.mosque:before{
+.mosque:before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -92,15 +89,16 @@ section h2::before{
 }
 
 @keyframes animateBack {
-    0%{
+    0% {
         background-position: 1200px;
     }
-    100%{
+
+    100% {
         background-position: 0;
     }
 }
 
-.particles-js-canvas-el{
+.particles-js-canvas-el {
     position: absolute;
     top: 0;
     left: 0;
